@@ -1,4 +1,4 @@
-# by KozhinovDA
+// by KozhinovDA
 
 public class Index {
     public static void main(String args[]) {
@@ -7,9 +7,17 @@ public class Index {
     }
 
     private static void doMethod2(int n) {
-    	for(int i=0; i<n; i++) {
+    	int i;
+    	for(i=0; i<n; i++) {
     		System.out.println("item#" + (i+1));
     	}
+    	if (i == n) {
+    		doMethod3("doMethod2");
+    	}
+    }
+
+    private static void doMethod3(String str) {
+    	System.out.println(str + " passed!");
     }
 
 }
