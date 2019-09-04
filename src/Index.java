@@ -7,9 +7,9 @@ public class Index {
         doMethod2(6);
     }
 
-	private static String doMethod(String str) {
-		return str;
-	}
+    private static void doMethod(String str) {
+        System.out.println(str);
+    }
 
     private static void doMethod2(int n) {
     	int i;
