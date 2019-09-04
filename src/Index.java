@@ -4,7 +4,7 @@ public class Index {
     public static void main(String args[]) {
         System.out.println("Hello, world!");
         doMethod("Checking method!");
-        doMethod2(24);
+        doMethod2(33);
     }
 
     private static void doMethod(String str) {
