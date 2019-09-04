@@ -3,11 +3,11 @@
 public class Index {
     public static void main(String args[]) {
         System.out.println("Hello, world!");
-        doMethod("Checking method!");
+        checkMethod("Checking method!");
         doMethod2(99);
     }
 
-    private static void doMethod(String str) {
+    private static void checkMethod(String str) {
         System.out.println(str);
     }
 
